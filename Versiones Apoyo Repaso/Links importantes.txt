@@ -1,3 +1,4 @@
+Dia 1:
 https://www.w3schools.com/js/js_function_apply.asp
 
 https://ishwar-rimal.medium.com/trickiest-javascript-interview-question-with-solution-73958f99a376
@@ -7,3 +8,8 @@ https://stackoverflow.com/questions/53006883/javascript-closures-and-local-varia
 
 
 https://www.linkedin.com/pulse/javascript-find-object-array-based-objects-property-rafael
+
+Dia 2:
+https://www.quackit.com/javascript/javascript_refresh_page.cfm
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
