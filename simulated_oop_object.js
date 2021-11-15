@@ -27,17 +27,25 @@ function counter4() {
     ]
     
     return function app (msg, ...args){
-        debugger
         let func = find_msg(msg, methods)
         const result = func(...args) 
-        console.log('pre:', result)
+        console.log(`Resp: ${result}       Metodo: ${msg}()`)
         return result
     }
 }
 
+console.log('Resultados contador:')
+
+// Instancia del contador:
 const counter = counter4()
+
+// Pruebas:
 counter('inc')
-counter('step', 3, 2)
+counter('step', 3)
 counter('inc')
 counter('dec')
 counter('reset')
+
+// Ignora correctamente parametros sobrantes:
+counter('inc', 1, 2, 3, 4)
+counter('step', 3, 5, 6) 
